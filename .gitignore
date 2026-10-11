@@ -1,0 +1,22 @@
+cat << 'EOF' > .gitignore
+# Środowisko wirtualne Pythona
+venv/
+env/
+.venv/
+
+# Pamięć podręczna Pythona i testów
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Pliki systemowe i edytorów
+.DS_Store
+.vscode/
+.idea/
+
+# Logi SITL / MAVLink
+*.tlog
+*.rlog
+mav.parm
+EOF
