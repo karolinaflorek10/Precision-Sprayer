@@ -133,7 +133,7 @@ tests/test_state_machine.py::test_full_mission_flow PASSED
 ```
 ---
 
-### 8. Przygotowane scenariusze testowe i ich oczekiwane wyniki
+### 8. Scenariusze testowe i ich oczekiwane wyniki
 Scenariusz pozytywny (chwast wykryty):
 Obraz wejściowy: weed_field.png
 Oczekiwane zachowanie: funkcja detect() zwraca True, FSM przełącza się w stan SPRAYING, aktywuje serwo zaworu na 2s, loguje współrzędne i wraca do PATROL.
